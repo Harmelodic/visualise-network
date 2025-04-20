@@ -20,7 +20,7 @@ matplotlib==3.10.1
 matplotlib-inline==0.1.7
 mccabe==0.7.0
 networkx==3.4.2
-numpy==2.2.4
+numpy==2.2.5
 packaging==25.0
 pandas==2.2.3
 parso==0.8.4
