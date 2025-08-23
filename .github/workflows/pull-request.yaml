@@ -9,10 +9,10 @@ on:
 
 jobs:
   verify-github-workflows:
-    uses: harmelodic/workflows/.github/workflows/verify-github-workflows.yaml@bebff270d11545876be175752c3d2ac17370ed81
+    uses: harmelodic/workflows/.github/workflows/verify-github-workflows.yaml@541e2964bc269db532b73d02671363f55c63d2de
 
   verify-python-project:
-    uses: harmelodic/workflows/.github/workflows/verify-python-project.yaml@bebff270d11545876be175752c3d2ac17370ed81
+    uses: harmelodic/workflows/.github/workflows/verify-python-project.yaml@541e2964bc269db532b73d02671363f55c63d2de
     with:
       target: generate_network_graph.py
 
