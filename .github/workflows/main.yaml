@@ -9,10 +9,10 @@ on:
 
 jobs:
   verify-github-workflows:
-    uses: harmelodic/workflows/.github/workflows/verify-github-workflows.yaml@99d22090f97a855f32af8a5f56523a6a88bb2857
+    uses: harmelodic/workflows/.github/workflows/verify-github-workflows.yaml@e835ab66e94297d4dcdc99cbd1d5d9c76c48a6a1
 
   verify-python-project:
-    uses: harmelodic/workflows/.github/workflows/verify-python-project.yaml@99d22090f97a855f32af8a5f56523a6a88bb2857
+    uses: harmelodic/workflows/.github/workflows/verify-python-project.yaml@e835ab66e94297d4dcdc99cbd1d5d9c76c48a6a1
     with:
       target: generate_network_graph.py
 
@@ -21,7 +21,7 @@ jobs:
       contents: 'read'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6
       - uses: actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548 # v6
       - run: pip install -r requirements.txt
       - run: python generate_network_graph.py
