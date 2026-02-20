@@ -1,4 +1,4 @@
 networkx==3.6.1
 pandas==3.0.1
-pylint==4.0.4
+pylint==4.0.5
 pyvis==0.3.2
